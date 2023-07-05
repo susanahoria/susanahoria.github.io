@@ -48,6 +48,15 @@ footer{
   }
 }
 
+a{
+  text-decoration:none;
+  color: white;
+  padding: 16px;
+  border: 1px solid purple;
+  background-color: rgb(96, 46, 96);
+  border-radius: 10px;
+}
+
 /* Pagina de inicio */
 
 .inicio-container{
