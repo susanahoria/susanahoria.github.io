@@ -3,12 +3,135 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>MXM</title>
   </head>
   <body>
     <header>
-      <a href="./app/login.html">Iniciar sesion</a>
-      <a href="./app/buy.html">Carro de compras</a>
+      <h1>mangaXmanga</h1>
+      <div>
+        <a href="./app/login.html">Iniciar sesion</a>
+        <a href="./app/buy.html">Carrito</a>
+      </div>
     </header>
+    <main class="inicio-container">
+      <div class="filters">
+        <label for="type">Tipo</label>
+        <select name="type" id="type">
+          <option value="manga">Manga</option>
+          <option value="novel">Novel</option>
+          <option value="manhwa">Manhwa</option>
+        </select>
+        <label for="genres">Genero</label>
+        <select name="genres" id="genres">
+          <option value="drama">Drama</option>
+          <option value="terror">Terror</option>
+          <option value="romance">Romance</option>
+        </select>
+        <label for="status">Estado</label>
+        <select name="status" id="status">
+          <option value="Terminado">Terminado</option>
+          <option value="publishing">Publicandose</option>
+          <option value="discontinued">Descontinuado</option>
+        </select>
+      </div>
+      <div class="container-card">
+        <div class="card">
+          <img src="./multimedia/img/hxh.jpg" />
+          <p>hunterxhunter</p>
+          <p>$15.000</p>
+        </div>
+        <div class="card">
+          <img src="./multimedia/img/jujutsu.jpg" />
+          <p>Jujutsu kaisen</p>
+          <p>$15.000</p>
+        </div>
+        <div class="card">
+          <img src="./multimedia/img/my-hero-academia.jpg" />
+          <p>My hero academia</p>
+          <p>$15.000</p>
+        </div>
+        <div class="card">
+          <img src="./multimedia/img/one-piece.jpg" />
+          <p>One piece</p>
+          <p>$15.000</p>
+        </div>
+        <div class="card">
+          <img src="./multimedia/img/full-metal.jpg" />
+          <p>Full metal brotherhood</p>
+          <p>$15.000</p>
+        </div>
+        <div class="card">
+          <img src="./multimedia/img/hxh.jpg" />
+          <p>hunterxhunter</p>
+          <p>$15.000</p>
+        </div>
+        <div class="card">
+          <img src="./multimedia/img/jujutsu.jpg" />
+          <p>Jujutsu kaisen</p>
+          <p>$15.000</p>
+        </div>
+        <div class="card">
+          <img src="./multimedia/img/my-hero-academia.jpg" />
+          <p>My hero academia</p>
+          <p>$15.000</p>
+        </div>
+        <div class="card">
+          <img src="./multimedia/img/one-piece.jpg" />
+          <p>One piece</p>
+          <p>$15.000</p>
+        </div>
+        <div class="card">
+          <img src="./multimedia/img/full-metal.jpg" />
+          <p>Full metal brotherhood</p>
+          <p>$15.000</p>
+        </div>
+        <div class="card">
+          <img src="./multimedia/img/hxh.jpg" />
+          <p>hunterxhunter</p>
+          <p>$15.000</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="maps-and-info">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13297.186868048746!2d-70.5621786!3d-33.5716445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2scl!4v1688571814128!5m2!1sen!2scl"
+          width="300"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, illo
+          eveniet, molestias labore dicta perferendis animi ratione accusantium
+          ducimus at est saepe deserunt. Ad voluptate accusamus itaque quia,
+          aperiam laudantium?
+        </p>
+      </div>
+      <div>
+        <h3>Contactanos a traves de nuestras redes sociales!</h3>
+        <div class="icons-container">
+          <img
+            src="./multimedia/img/249180_social media_facebook_social_face book_social network_icon.png"
+            alt="facebook"
+          />
+          <img
+            src="./multimedia/img/249200_social media_instagram_social_photography_camera_icon.png"
+            alt="instagram"
+          />
+          <img
+            src="./multimedia/img/334343_game_gamer_social_twitch_video_icon.png"
+            alt="discord"
+          />
+          <img
+            src="./multimedia/img/408057_contact_email_envelope_letter_mail_icon.png"
+            alt="mail"
+          />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
