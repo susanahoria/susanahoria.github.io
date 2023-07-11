@@ -158,3 +158,10 @@ a{
     margin-right: 30px;
   }
 }
+
+/* grid se puede ocupar con
+  display: grid
+  grid-template-columns: repeat(las columnas que quiero, el tamaño que deseo)
+  lo mismo para row con grid-template-row
+  para ocupar esos espacios ir de a poco con grid-template-areas: 'aqui irian toooodos los elementos y el espacio que ocuparia cada una'
+*/
